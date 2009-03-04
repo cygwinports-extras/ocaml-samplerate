@@ -1,0 +1,65 @@
+ocaml-samplerate
+------------------------------------------
+This package contains an O'Caml interface for the audio rate conversion 
+library, otherwise known as libsamplerate.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libsamplerate0-0.1.7-1
+  ocaml-3.10.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gcc-core-3.4.4-3
+  make-3.81-2
+  ocaml-findlib-1.2.2-1
+
+Canonical website:
+  http://savonet.sourceforge.net/wiki/OCamlLibs
+
+Canonical download:
+  http://downloads.sourceforge.net/savonet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-samplerate-0.1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-samplerate-0.1.0-X.cygport all
+
+This will create:
+  /usr/src/ocaml-samplerate-0.1.0-X-src.tar.bz2
+  /usr/src/ocaml-samplerate-0.1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/samplerate/META
+  /usr/lib/ocaml/3.10/samplerate/libsamplerate_stubs.a
+  /usr/lib/ocaml/3.10/samplerate/samplerate.a
+  /usr/lib/ocaml/3.10/samplerate/samplerate.cma
+  /usr/lib/ocaml/3.10/samplerate/samplerate.cmi
+  /usr/lib/ocaml/3.10/samplerate/samplerate.cmx
+  /usr/lib/ocaml/3.10/samplerate/samplerate.cmxa
+  /usr/lib/ocaml/3.10/samplerate/samplerate.mli
+  /usr/lib/ocaml/3.10/stublibs/dllsamplerate_stubs.so
+  /usr/lib/ocaml/3.10/stublibs/dllsamplerate_stubs.so.owner
+  /usr/share/doc/ocaml-samplerate-0.1.0/COPYING
+  /usr/share/doc/ocaml-samplerate-0.1.0/Changes
+  /usr/share/doc/ocaml-samplerate-0.1.0/README
+
+------------------
+
+Port Notes:
+
+----- version 0.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
