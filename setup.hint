@@ -1,5 +1,5 @@
 category: Audio OCaml
-requires: cygwin libsamplerate0 libsamplerate-devel ocaml
+requires: libsamplerate0 libsamplerate-devel ocaml
 sdesc: "OCaml samplerate bindings"
 ldesc: "This package contains an O'Caml interface for the audio rate 
 conversion library, otherwise known as libsamplerate."
