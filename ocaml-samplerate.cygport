@@ -1,8 +1,8 @@
 inherit ocaml
 
 NAME="ocaml-samplerate"
-VERSION=0.1.1
-RELEASE=3
+VERSION=0.1.2
+RELEASE=1
 CATEGORY="Libs"
 SUMMARY="OCaml samplerate bindings"
 DESCRIPTION="This package contains an O'Caml interface for the audio rate
