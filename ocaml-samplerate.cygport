@@ -1,0 +1,18 @@
+inherit ocaml
+
+NAME="ocaml-samplerate"
+VERSION=0.1.1
+RELEASE=3
+CATEGORY="Libs"
+SUMMARY="OCaml samplerate bindings"
+DESCRIPTION="This package contains an O'Caml interface for the audio rate
+conversion library, otherwise known as libsamplerate."
+HOMEPAGE="http://savonet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}
